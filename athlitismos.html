@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="1984: Ερευνητική Πειραματική Προβολή Ροής Ειδήσεων">
+    <meta name="author" content="Michail Moatsos">
+    <!--<meta http-equiv="refresh" content="3600" >-->
+    <link rel="icon" href="./images/1984icon2.ico">
+
+    <title>1984 - across media bubbles</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./bootstrap-3.3.7/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./bootstrap-3.3.7/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./bootstrap-3.3.7/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    $(document).ready(function() {
+      // Show or hide the sticky footer button
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+          $('.go-top').fadeIn(200);
+        } else {
+          $('.go-top').fadeOut(200);
+        }
+      });
+
+      // Animate the scroll to top
+      $('.go-top').click(function(event) {
+        event.preventDefault();
+
+        $('html, body').animate({scrollTop: 0}, 300);
+      })
+    });
+    </script>
+    <style>
+      h6 {text-align:center;}
+    </style>
+    <!--http://www.prepbootstrap.com/bootstrap-template/bootstrap-alerts-->
+    <style>
+        .displaystyle {
+        padding: 5px;
+        margin: 5px;
+        background-color: #FFFFFF;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    .displaystyle-fullborder {
+        padding: 10px;
+        margin: 10px;
+        background-color: #FFFFFF;
+        border: 3px solid #7f7f84;
+        margin-bottom: 5px;
+        box-shadow: 3px 5px 5px 4px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    .displaystyle-rightborder {
+        padding: 10px;
+        margin: 10px;
+        background-color: #FFFFFF;
+        border-right: 9px solid ;
+        margin-bottom: 5px;
+        box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    .displaystyle-leftborder {
+        padding: 15px;
+        margin: 15px;
+        background-color: #FFFFFF;
+        border-left: 9px solid ;
+        margin-bottom: 10px;
+        box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .displaystyle-sm {
+        padding: 10px;
+        font-size: 80%;
+    }
+    .displaystyle-lg {
+        padding: 15px;
+        font-size: large;
+    }
+    .displaystyle-success {
+        border-color: #80D651;
+    }
+    .displaystyle-success>strong {
+        color: #000000;
+    }
+    .displaystyle-info {
+        border-color: #45ABCD;
+    }
+    .displaystyle-info>strong {
+        color: #45ABCD;
+    }
+    .displaystyle-warning {
+        border-color: #FEAF20;
+    }
+    .displaystyle-warning>strong {
+        color: #FEAF20;
+    }
+    .displaystyle-danger {
+        border-color: #d73814;
+    }
+    .displaystyle-danger>strong {
+        color: #d73814;
+    }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-101018939-1', 'auto');
+    ga('send', 'pageview');
+  </script>-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://1984.gr/">1984<-Αθλητισμός</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!--<li class="active"><a href="#">Αρχική</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Παρακολουθείτε <span class="badge">36 πηγές</span><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+				<li><a href="#graph">Τα συνολικά <span class="badge"><font color="FFFFFF">100</font></span> τελευταία άρθρα ανά πηγή:</a></li>
+				<li role="separator" class="divider"></li>
+                <li class="dropdown-header">The Press Project  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">Left.gr  <span class="badge"><font color="FFFFFF">1</font></span></li>
+                <li class="dropdown-header">ΕΡΤ  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">Πριν  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">TVXS  <span class="badge"><font color="FFFFFF">1</font></span></li>
+                <li class="dropdown-header">ΕφΣυν  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">Καθημερινή  <span class="badge"><font color="FFFFFF">2</font></span></li>
+              </ul>
+            </li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Top Ranks<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/large20.html">Τα 20 μεγαλύτερα</a></li>
+              </ul>
+            </li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/ellada.html">Ελλάδα</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/oikonomia.html">Οικονομία</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/politiki.html">Πολιτική</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/kosmos.html">Κόσμος</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/politismos.html">Πολιτισμός</a></li>
+                <!--<li class="nav-item"><a class="nav-link" href="http://1984.gr/koinwnia.html">Κοινωνία</a></li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Περισσότερα<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/ereunes.html">Έρευνες</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/gnwmes.html">Γνώμες</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/epistimi.html">Επιστήμη</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/oikologia.html">Οικολογία</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/evzoia.html">Ευζωία</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/athlitismos.html">Αθλητισμός</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" role="main">
+
+    <img class="img-responsive" src="./WordCloud24.svg" alt="Σύννεφο λέξεων των τίτλων του τελευταίου 24ώρου">
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/greek-football/arthro/7584301/panathinaikos-o-giovanovits-kataligei-se-stoper"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast---.-..<strong>Παναθηναικος -.-Γιοβανοβιτς -.-Καταληγει .-.</strong><small>Στοπερ --.</small>.-..-.-......</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/arthro/7584609/i-anglia-gia-to-proto-tropaio-i-dania-gia-to-deftero-thavma"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast.----...-<strong>Αγγλια ..-Τροπαιο -..Δανια -..</strong><small>Δευτερο .--Θαυμα .--</small>--...--..-.---.--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.topontiki.gr/2021/07/07/copa-america-prokrisi-sta-penalti-gia-tin-argentini-souper-telikos-me-vrazilia-video/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από Το Ποντίκι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Το Ποντίκι">--><font color="000000">Το Ποντίκι-....<strong>Copa .--America -..Προκριση ..-</strong><small>Πεναλτι ..-Αργεντινη -..</small>--..-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/arthro/7584174/to-antio-tou-olybiakou-ston-vasili-tokaki-palepse-gennaia-mechri-tin-teleftaia-stigmi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast-....<strong>Αντιο ..-Ολυμπιακου -..Βασιλη ..-</strong><small>Τοκακη --.Παλεψε .--</small>...-----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/international-football/arthro/7583924/security-perase-ton-bonoutsi-gia-opado-kai-prospathise-na-ton-valei-piso-stis-kerkides"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast-.---<strong>Security ---Περασε ...Μπονουτσι -.-</strong><small>Οπαδο -..Προσπαθησε ...</small>.--.-.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/international-football/arthro/7583617/euro-2020-istoriki-efkairia-gia-tin-anglia-na-diekdikisei-tin-koupa-sto-spiti-tis-dynata-gia-tin-ekplixi-i-dania"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast-.-.-<strong>Euro ..-Ιστορικη .-.Ευκαιρια ---</strong><small>Αγγλια ...Διεκδικησει -.-</small>-..-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/arthro/7583495/euro-2020-kaike-i-romi-meta-to-nikitirio-penalti-tou-zorzinio"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast.-....<strong>Euro .-.Καηκε ...Ρωμη -.-</strong><small>Νικητηριο ---Πεναλτι ..-</small>.-----...-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/athletics/561424504/euro-2021-apofasismeni-gia-tropaio-i-italia-simera-agglia-kai-dania-gia-mia-thesi-ston-teliko/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή-...-<strong>Euro ---Αποφασισμενη ..-Τροπαιο -..</strong><small>Ιταλια .-.Αγγλια -.-</small>..---..-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/greek-football/arthro/7583492/panathinaikos-nea-porta-stin-altai-gia-ton-chatzigiovani"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast.--..--<strong>Παναθηναικος ..-Νεα --.Πορτα --.</strong><small>Αλται --.Χατζηγιοβανη ---</small>-...-.-.-.---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/olympiakoi-agones-synagermos-meta-apo-dyo-krousmata-sto-olympiako-xorio/3321037/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit...-.<strong>Ολυμπιακοι --.Αγωνες -..Συναγερμος ...</strong><small>Κρουσματα .--Ολυμπιακο -..</small>.-...-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/athletics/561424498/anakoinose-peri-o-pao-floint-thelei-o-priftis/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή-.--.--..<strong>Ανακοινωσε -.-Παο --.Φλοιντ ---</strong><small>Θελει ..-Πριφτης --.</small>--....--.-..-..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/greek-football/arthro/7584270/paok-edose-dioria-ston-oliveira"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast.---....-..-<strong>Παοκ ..-Εδωσε -..Διορια ---</strong><small>Ολιβειρα ---</small>---...-..-...--..---.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/basketball/arthro/7583596/antetokounbo-pistepsa-oti-dielysa-to-gonato-mou-kai-tha-meino-ena-chrono-ektos"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast..-.<strong>Αντετοκουνμπο .-.Πιστεψα -..Διελυσα .-.</strong><small>Γονατο --.Μεινω .--</small>----...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.cnn.gr/sports/story/273097/h-agglia-gia-to-proto-tropaio-i-dania-gia-to-deytero-thayma"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το cnn" data-placement="bottom" src="./logos/cnn-logo-tiny.png" alt="CNN">--><font color="000000">CNN-.-..-...<strong>Αγγλια ...Τροπαιο ..-Δανια --.</strong><small>Δευτερο .-.Θαυμα .--</small>...--...-.-.--.--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/greek-football/arthro/7584818/o-rikelme-ton-stelnei-ellada-ekrixi-kai-gkol-allazei-epipedo-ton-olybiako"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast-....<strong>Ρικελμε -..Στελνει .--Ελλαδα ..-</strong><small>Εκρηξη .--Γκολ ---</small>--.-.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/sports/international-football/arthro/7583451/copa-america-i-argentini-ston-teliko-me-iroa-martines-kai-tora-vrazilia"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast..-..<strong>Copa -.-America .-.Αργεντινη --.</strong><small>Τελικο .--Ηρωα ...</small>-..-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/greece/stin-petroupoli-ta-vradia-trexoun-kai-podilatoun/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr---.....<strong>Πετρουπολη ---Βραδια --.Τρεχουν -.-</strong><small>Ποδηλατουν .-.</small>-.-.-...-....--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/basketball/bcl-aytoi-einai-oi-antipaloi-gia-paok-aek-kai-layrio-stous-omilous-vati-klirosi-gia-peristeri-sta-prokrimatika/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr..--.<strong>Bcl ---Αντιπαλοι .--Παοκ .--</strong><small>Αεκ ..-Λαυριο ...</small>..-..-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/sto-mega-o-filikos-agonas-olympiakou-galatasarai-tin-triti-13-iouliou/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr-..-<strong>Mega .-.Φιλικος ---Αγωνας ..-</strong><small>Ολυμπιακου -.-Γαλατασαραι -.-</small>--...--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/pame-stoihima/story/1212685/agglia-dania-me-epidorpio-apo-to-cookball-league-kai-to-pamestoixima-gr"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb...-.<strong>Αγγλιαδανια ...Επιδορπιο --.Cookball --.</strong><small>League -..Pamestoixima ...</small>...---.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>..-</strong>Πριν <strong>62 λεπτά</strong><strong>--.</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/die8nis-idisis/manchester-united/article/mantsester-giounaitent-den-8a-figi-o-pogmpa"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla--.-.-.<strong>Μαντσεστερ .-.Γιουναιτεντ -..Δεν ---</strong><small>Φυγει .-.Πογκμπα --.</small>----.--.-.-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/athlitismos/mpasket/1000243_bcl-klirosi-aytoi-einai-oi-antipaloi-gia-paok-aek-kai-layrio"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews..-.-.-.<strong>Bcl -..Κληρωση .--Αντιπαλοι ...</strong><small>Παοκ ..-Αεκ -..</small>--...--....----.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/podosfairo/story/1212680/aek-den-anakoinonetai-simera-o-le-talek-tote-erxetai-ellada-pics"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb-..-<strong>Αεκ .--Δεν ...Ανακοινωνεται ..-</strong><small>Λε -..Ταλεκ .--</small>--.--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746692/euro-2020-yparxei-risko-metadosis-tou-iou-sumfona-me-bretano-upourgo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-.-.<strong>Euro .-.Ρισκο -..Μεταδοσης .--</strong><small>Ιου ---Συμφωνα ..-</small>---.-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/bet/article/aglia-dania-me-epidorpio-apo-to-cokball-league-ke-to-pamestoiximagr"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla.....<strong>Αγγλιαδανια -.-Επιδορπιο ...Cookball ...</strong><small>League -.-Pamestoixima .-.</small>--.-..-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.iefimerida.gr/spor/basketball-champions-league-klirosi-aek-paok-layrio"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το iefimerida" data-placement="bottom" src="./logos/iefimerida-logo-tiny.png" alt="iefimerida">--><font color="000000">iefimerida..--.<strong>Basketball ...Champions ..-League ---</strong><small>Καλη ..-Κληρωση .-.</small>.--...-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746691/dunati-ekkinisi-ton-ellinon-istioploon-sto-pagkosmio-protathlima-420"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική--..-<strong>Δυνατη ..-Εκκινηση ---Ελληνων -.-</strong><small>Ιστιοπλοων ...Παγκοσμιο ---</small>----..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/imera-serxio-ramos-stin-pari/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr.......-.-.-.<strong>Ημερα --.Σερχιο -.-Ραμος -..</strong><small>Παρι .--</small>.-..-.--..-......--.--.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/mpasket/paok/article/basketball-champions-league-i-klirosi-gia-aek-paok-ke-lavrio"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla-.---<strong>Basketball -.-Champions ..-League -..</strong><small>Κληρωση .--Αεκ ---</small>.......-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/Euro-2020-o-pike-ekane-logo-gia-adikia-sta-penalti-logo-nomismatos/3321026/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit-....<strong>Euro .-.Πικε ---Εκανε -.-</strong><small>Λογο ...Αδικια ---</small>.-.-..--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746683/kali-gia-tin-aek-duskoli-gia-tous-upoloipous-i-klirosi-sto-bcl"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική...----<strong>Καλη ...Αεκ -..Δυσκολη ...</strong><small>Υπολοιπους ...Κληρωση -..</small>.......-..--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/pame-stoihima/story/1212666/agglia-dania-oi-skandinavoi-den-asteieyontai-oyte-omos-o-kein"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb.....<strong>Αγγλια .-.Δανια .-.Σκανδιναβοι ---</strong><small>Δεν ...Αστειευονται ..-</small>...-..---.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.iefimerida.gr/spor/aek-stin-athina-o-le-talek"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το iefimerida" data-placement="bottom" src="./logos/iefimerida-logo-tiny.png" alt="iefimerida">--><font color="000000">iefimerida....-.-.-.--.-<strong>Αεκ -.-Αθηνα --.Λε -.-</strong><small>Ταλεκ .--</small>-----.----.--..-..--....--.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/klirosi-BCL-aytoi-einai-oi-antipaloi-ton-ellinikon-omadon/3320984/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit.--..-..<strong>Κληρωση -..Bcl .--Αντιπαλοι --.</strong><small>Ελληνικων .-.Ομαδων --.</small>.-...----.-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/anor8osi-anakinose-ke-pempto-krousma"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla...--.<strong>Ανορθωση .-.Ανακοινωσε .-.Πεμπτο ..-</strong><small>Κρουσμα ...Κορωνοιου -..</small>.---.-.-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746677/ston-astera-tripolis-o-atientha"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική..-...--..--.<strong>Αστερα ---Τριπολης .--Ατιενθα ..-</strong><small></small>..-......-..------..-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.ethnos.gr/athlitismos/164720_o-hronos-einai-hrima-kai-gia-ton-paok"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Έθνος" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Έθνος">--><font color="000000">Έθνος.....--..-.....<strong>Χρονος .--Χρημα --.Παοκ -.-</strong><small></small>----..--.-..-...--.-....--.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/paok-minyma-ton-opadon-gia-to-thanato-tou-xristou-paylidi/3320993/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit..--..-<strong>Παοκ -.-Μηνυμα .--Οπαδων .--</strong><small>Θανατο -.-Χρηστου .-.</small>...--.-.-....</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/aek/article/stin-a8ina-o-le-talek-gia-tin-aek"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla--.-.---.-.-..<strong>Αθηνα .-.Λε .-.Ταλεκ ...</strong><small>Αεκ ---</small>...---..------......--.-----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746667/etoimos-na-aposurthei-apo-tin-ethniki-ispanias-o-mpouskets"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-----.<strong>Ετοιμος -..Αποσυρθει --.Εθνικη .--</strong><small>Ισπανιας .--Μπουσκετς ..-</small>...--.----.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>---</strong>Πριν <strong>143 λεπτά</strong><strong>--.</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/anakinoni-ton-serxio-ramos-i-pari-sen-zermen"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla.-...-.<strong>Ανακοινωνει ..-Σερχιο -..Ραμος ---</strong><small>Παρι -..Σεν --.</small>--...-........</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/sygkinitiko-antio-tou-kosta-karapapa-ston-vasili-tokaki/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr-.-..<strong>Συγκινητικο .--Αντιο -..Κωστα -.-</strong><small>Καραπαπα ..-Βασιλη ---</small>--....--.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/asteras-tripolis/article/anakinose-ton-pitsou-atien8a-o-asteras-tripolis"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla--....<strong>Ανακοινωσε ---Πιτσου --.Ατιενθα ..-</strong><small>O -.-Αστερας --.</small>...---..-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746662/stin-athina-to-mesimeri-gia-aek-o-le-talek"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική..-.---..--<strong>Αθηνα .-.Μεσημερι ...Αεκ .--</strong><small>Λε ..-Ταλεκ ---</small>.-...-.-..--.-..-..-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/ispania-aposirete-apo-tin-e8niki-o-mpouskets"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla-.-----<strong>Ισπανια ..-Αποσυρεται --.Εθνικη ..-</strong><small>Ομαδα --.Μπουσκετς -..</small>--.-..-.-.---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/ta-syllypitiria-tis-pae-olympiakos-gia-ton-thanato-tou-vasili-tokaki/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr.--.<strong>Συλλυπητηρια ..-Παε ---Ολυμπιακος ...</strong><small>Θανατο .-.Βασιλη .--</small>-..-...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.thetoc.gr/athlitika/article/euro-ti-perimenoume-apo-to-agglia-dania/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το thetoc" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="TheToc">--><font color="000000">TheToc..-------..<strong>Euro -..Περιμενουμε ---Αγγλιαδανια ..-</strong><small></small>--....-...--.-...-...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.enikos.gr/sports/785698/i-anglia-gia-to-proto-tropaio-i-dania-gia-to-deftero-thavma"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Ενικό" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Ενικός">--><font color="000000">Ενικός--...---.<strong>Αγγλια --.Τροπαιο .-.Δανια ...</strong><small>Δευτερο ---Θαυμα ..-</small>--.--.-.-.----...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/podosfairo/story/1212627/olympiakos-perimenei-klisi-gia-athina-o-mpizot"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb.-..---<strong>Ολυμπιακος --.Περιμενει --.Κληση -..</strong><small>Αθηνα --.Μπιζοτ ..-</small>.-.....-...-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/mpartselona-ston-aera-o-gkriezman/3320980/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit---.---....-<strong>Μπαρτσελονα .-.Αερα ..-Γκριεζμαν .--</strong><small></small>.-.-...-..---.-..-.....</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746653/ypografei-entos-tis-imeras-o-ramos-stin-pari"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-..--.---..<strong>Υπογραφει ---Ημερας ...Ραμος .-.</strong><small>Παρι .-.</small>..----.....-..-.-.-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.thetoc.gr/athlitika/article/alica-schmidt-h-pio-sexi-athlitria-tou-planiti-etoimi-gia-tous-olumpiakous-agones/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το thetoc" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="TheToc">--><font color="000000">TheToc....-<strong>Alica ..-Schmidt ---H .-.</strong><small>Σεξι ---Αθλητρια -..</small>.------.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/Bundesliga-tha-ksekinisei-me-ti-xoritikotita-sto-50-i-nea-sezon/3320960/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit-.-.--<strong>Bundesliga ...Ξεκινησει ---Χωρητικοτητα -..</strong><small>Νεα -.-Σεζον --.</small>.-..-..-.---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/fiesta-sti-romi-gia-tin-prokrisi-tis-italias"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla-.....-.---<strong>Φιεστα .--Ρωμη ..-Προκριση ..-</strong><small>Ιταλιας ...</small>.-.-..--.-.--.-.---.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/podosfairo/story/1212626/paok-provlimatismos-kai-dioria-se-oliveira-h-enallaktiki-lysi-gia-tin-epithesi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb-..--<strong>Παοκ ..-Προβληματισμος --.Διορια -.-</strong><small>Ολιβειρα .-.Εναλλακτικη ---</small>.-.--..-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.documentonews.gr/article/stivos-ektos-apostolis-gia-to-tokio-o-proponitis-toni-minitsielo-logo-kataggelion-apo-athlitries-toy/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το documentonews" data-placement="bottom" src="./logos/documentonews-logo-tiny.png" alt="DocumentoNews">--><font color="000000">DocumentoNews.---.<strong>Στιβος .-.Αποστολης .--Τοκιο ..-</strong><small>Προπονητης ..-Τονι -..</small>...-..-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/kieza-ena-apistefto-oniro"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla..---..-.....<strong>Κιεζα -.-Απιστευτο -.-Ονειρο --.</strong><small></small>----...-.--.--...---....-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/i-agglia-gia-to-proto-tropaio-i-dania-gia-to-deytero-thayma/3320951/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit.--..-.--<strong>Αγγλια -..Τροπαιο .--Δανια ---</strong><small>Δευτερο ...Θαυμα ...</small>..----...--...----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746634/ananeose-o-geromixalos-sto-laurio"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-.--.-....-<strong>Ανανεωσε ..-Γερομιχαλος -..Λαυριο .-.</strong><small></small>-.-...--.-...-..-----.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/mantsini-ligi-to-pistevan-ala-imaste-ston-teliko"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla...--.....<strong>Μαντσινι -.-Λιγοι -.-Πιστευαν .-.</strong><small>Τελικο .-.</small>.---...--.-.-..-....</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>...</strong>Πριν <strong>4 ώρες</strong><strong>---</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.ethnos.gr/athlitismos/164965_wimbledon-i-18hroni-rantoykanoy-egkateleipse-kai-epiasan-ti-raketa-oi-sholiastes"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Έθνος" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Έθνος">--><font color="000000">Έθνος--.--<strong>Wimbledon ..-Χρονη ---Ραντουκανου -.-</strong><small>Εγκατελειψε ..-Επιασαν ..-</small>..-.....</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/aek-o-le-talek-epivevaiose-oti-erxetai-ellada/3320934/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit---..-.<strong>Αεκ ...Λε .--Ταλεκ -.-</strong><small>Επιβεβαιωσε -.-Ερχεται .--</small>....--....--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/podosfairo/story/1212625/panathinaikos-vrike-ton-eklekto-gia-tin-amyna-o-giovanovits"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb----..<strong>Παναθηναικος --.Βρηκε ...Εκλεκτο -.-</strong><small>Αμυνα -..Γιοβανοβιτς ..-</small>-.----.--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.star.gr/eidiseis/athlitika/549381/oi-sans-nikhsan-toys-mpaks"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Star" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Star">--><font color="000000">Star...-..--....-.<strong>Μπακς -.-Ηττηθηκαν -.-Σανς ---</strong><small></small>-.---.--...-..-..-----..-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.thetoc.gr/athlitika/article/euro-2020-xefrenoi-panigurismoi-sti-romi-apo-tin-prokrisi-tis-italias-ston-teliko/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το thetoc" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="TheToc">--><font color="000000">TheToc.-..-<strong>Euro -.-Ξεφρενοι ---Πανηγυρισμοι .--</strong><small>Ρωμη ..-Προκριση ...</small>.-..---.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/oi-epikes-antidraseis-tou-mesi-sti-diadikasia-ton-penalti/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr--..--<strong>Επικες .--Αντιδρασεις -..Μεσι .--</strong><small>Διαδικασια -..Πεναλτι ...</small>.---....-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746626/copa-america-xanei-ton-teliko-o-zezous"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-.-....--.<strong>Copa -..America .-.Χανει -.-</strong><small>Τελικο -..Ζεζους -.-</small>-----......--..--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/spor/story/1212618/euro-2020-sekioyriti-perase-gia-opado-ton-mponoytsi-kai-toy-erixe-porta-vid"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb-.--.<strong>Euro .-.Σεκιουριτι ...Περασε ---</strong><small>Οπαδο --.Μπονουτσι .--</small>..-.-..-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbomb.gr/sports/pame-stoihima/story/1212614/h-agglia-gia-to-proto-tropaio-i-dania-gia-to-deytero-thayma"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbomb" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="NewsBomb">--><font color="000000">NewsBomb...----.-<strong>Αγγλια -..Τροπαιο .--Δανια .-.</strong><small>Δευτερο .--Θαυμα -..</small>...-.-.--...--..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/bet/article/i-aglia-gia-to-proto-tropeo-i-dania-gia-to-deftero-8avma"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla--.---..-<strong>Αγγλια ..-Τροπαιο .-.Δανια ...</strong><small>Δευτερο --.Θαυμα .-.</small>-.-.-...-.-----.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.protothema.gr/sports/article/1140842/aegean-600-sunarpastikes-istiodromies-sto-aigaio-pelagos/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Πρώτο Θέμα" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Πρώτο Θέμα">--><font color="000000">Πρώτο Θέμα-.-..<strong>Συναρπαστικες ..-Διαδρομες --.Αιγαιο .-.</strong><small>Πελαγος .--Διεθνη ..-</small>----...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/lois-enrike-diksame-oti-imaste-omada"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla..-..----...<strong>Λουις --.Ενρικε -.-Δειξαμε ...</strong><small>Ομαδα -.-</small>...-.-.-.----.-------..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/louka-loutenmpax-maskot-tou-fetinou-euro-milaei-gia-tin-viral-antidrasi-tou/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr.-..-<strong>Λουκα -..Λουτενμπαχ ...Μασκοτ ..-</strong><small>Φετινου ---Euro ..-</small>....-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/o-paok-edose-dioria-ston-oliveira/3320928/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit-..--.....-.<strong>Παοκ ---Εδωσε ..-Διορια -.-</strong><small>Ολιβειρα -.-</small>...-..-..--.---..---.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/euro-protos-skorer-tis-ispanias-sti-diorganosi-o-morata"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla-..--<strong>Euro ..-Πρωτος -..Σκορερ .--</strong><small>Ισπανιας ..-Διοργανωση .-.</small>--..-...-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746619/olumpiakoi-agones-akurothike-i-lampadidromia-sto-dimosio-autokinitodromo-tou-tokio"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική...-.<strong>Ολυμπιακοι ..-Αγωνες -.-Ακυρωθηκε ..-</strong><small>Λαμπαδηδρομια --.Δημοσιο --.</small>-......-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/athlitismos/diethnes-podosfairo/1000190_copa-america-i-argentini-antipalos-tis-vrazilias-sto-megalo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews-..-.<strong>Copa ---America -..Αργεντινη -..</strong><small>Αντιπαλος .--Βραζιλιας -..</small>----..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/a8limata/article/den-8a-taksidepsi-sto-tokio-i-ritsarntson-pou-paradex8ike-xrisi-marixouanas"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla-----<strong>Δεν --.Ταξιδεψει .--Τοκιο -..</strong><small>Ριτσαρντσον -.-Παραδεχτηκε -.-</small>.-..-..-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/Copa-America-kleidose-o-souper-telikos-anamesa-se-vrazilia-kai-argentini/3320895/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit.....<strong>Copa ---America ..-Κλειδωσε .-.</strong><small>Σουπερ -.-Τελικος -.-</small>-..-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/podosfero/article/aglia-ke-dania-psaxnoun-8esi-ston-teliko-tou-euro"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla---.---.<strong>Αγγλια -..Δανια ..-Ψαχνουν --.</strong><small>Θεση --.Τελικο .-.</small>.......-.-.-...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>..-</strong>Πριν <strong>4 ώρες</strong><strong>.-.</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/a8limata/article/tokio-2020-xoris-8eates-i-lampadidromia"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla.-.-.-.--...<strong>Τοκιο ---Θεατες ---Λαμπαδηδρομια -.-</strong><small></small>.-.----..-...-.--.-.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/sports/mpasket/article/antetokounmpo-pistepsa-oti-8a-mino-ektos-gia-enan-xrono"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla---.--...<strong>Αντετοκουνμπο -..Πιστεψα -..Μεινω .-.</strong><small>Χρονο .--</small>-.--.-..-.--.-.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://tvxs.gr/news/athlitika/agonistiko-programma-tis-imeras-deyteros-imitelikos-agglia-dania-binteo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το TVXS" data-placement="bottom" src="./logos/tvxs-logo-tiny.png" alt="TVXS">--><font color="000000">TVXS.-.-.<strong>Αγωνιστικο ..-Προγραμμα .--Ημερας -..</strong><small>Δευτερος ---Ημιτελικος ---</small>---.-..-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746605/euro-2020-o-italikos-tupos-apotheonei-tous-paiktes-kai-ton-mantsini"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-....<strong>Euro --.Ιταλικος ..-Τυπος ---</strong><small>Αποθεωνει .--Παικτες .-.</small>-.-.-...-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/o-giannis-antetokounmpo-mimithike-to-istoriko-the-block-tou-lempron-tzeims-kai-trelane-ton-kosmo/3320890/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit--.-.<strong>Γιαννης .--Αντετοκουνμπο .-.Μιμηθηκε ---</strong><small>Ιστορικο .--The -..</small>...--.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/ethniki-danias-father-son/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr---.-.--.-<strong>Εθνικη -.-Δανιας .-.From -..</strong><small>Father -.-To -.-</small>-.--..----.-.------</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/sygklonistikos-antetokounmpo-pistepsa-pos-eixa-dialysei-to-gonato-mou-kai-tha-exana-enan-xrono/3320883/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit--.--<strong>Συγκλονιστικος ...Αντετοκουνμπο .-.Πιστεψα ...</strong><small>Διαλυσει .--Γονατο ...</small>..-.---.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746586/antetokounmpo-arxika-pistepsa-pos-tha-meino-ektos-gia-enan-xrono"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-..--.-.-<strong>Αντετοκουνμπο --.Πιστεψα --.Μεινω ..-</strong><small>Χρονο ..-</small>-...---.-.-.--.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="http://left.gr/news/ston-teliko-toy-euro-i-italia-me-4-2-sta-penalti-epi-tis-ispanias-ti-deyteri-finalist-krinei"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Left.gr" data-placement="bottom" src="./logos/logo_leftgr_tiny.png" alt="Left.gr">--><font color="000000">Left.gr..-.-<strong>Τελικο ..-Euro -.-Ιταλια -.-</strong><small>Πεναλτι .-.Ισπανιας ..-</small>.----.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/antetokounmpo-etsi-agonistike-ston-proto-teliko-tou-NBA/3320882/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit..-....--<strong>Αντετοκουνμπο -.-Αγωνιστηκε ...Τελικο .--</strong><small>Nba ---</small>--..--...--.-..-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.iefimerida.gr/spor/kopa-amerika-teliko-argentini-kontra-stin-brazilia"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το iefimerida" data-placement="bottom" src="./logos/iefimerida-logo-tiny.png" alt="iefimerida">--><font color="000000">iefimerida-...-<strong>Κοπα ...Αμερικα .-.Τελικο ..-</strong><small>Αργεντινη ---Κοντρα .-.</small>......--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.iefimerida.gr/spor/telikoi-nba-sans-ekanan-proto-bima-gia-ton-titlo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το iefimerida" data-placement="bottom" src="./logos/iefimerida-logo-tiny.png" alt="iefimerida">--><font color="000000">iefimerida.---.<strong>Τελικοι --.Nba -..Σανς ...</strong><small>Εκαναν -.-Βημα -.-</small>-...-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/oi-metagrafes-symperifora-tou-ivan-kai-o-panathinaikos-pou-exei-sto-myalo-tou/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr--.--<strong>Μεταγραφες ---Συμπεριφορα ...Ιβαν ...</strong><small>Παναθηναικος ..-Μυαλο --.</small>.-.-.-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746581/enrike-oute-o-iniesta-auta-pou-ekane-o-pedri-sto-tournoua"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική....---.-<strong>Ενρικε ...Ινιεστα ..-Εκανε .--</strong><small>Πεδρι --.Τουρνουα -..</small>....-...-----..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/sans-mpaks-118-105-itta-gia-to-milgouoki-stin-epistrofi-tou-antetokounmpo/3320865/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit-.--.<strong>Αντετοκουνμπο -..Επεστρεψε ..-Δεν --.</strong><small>Αρκετος ...Μιλγουοκι --.</small>.-.---.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.protothema.gr/sports/article/1140814/me-iroa-martines-i-argedini-ston-teliko-kai-tora-vrazilia/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Πρώτο Θέμα" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Πρώτο Θέμα">--><font color="000000">Πρώτο Θέμα.-..-.-<strong>Ηρωα ---Μαρτινες -..Αργεντινη -.-</strong><small>Τελικο .-.Βραζιλια -..</small>--.-----....-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsit.gr/athlitika/me-Euro-2020-kai-agglia-dania-oi-athlitikes-metadoseis-tis-imeras-07-07/3320863/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsit" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Newsit">--><font color="000000">Newsit----.<strong>Euro --.Αγγλια -..Δανια --.</strong><small>Αθλητικες ..-Μεταδοσεις -.-</small>..-.-.....</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.protothema.gr/sports/article/1140811/gunaika-prospathise-me-neropistolo-na-svisei-tin-olubiaki-floga/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Πρώτο Θέμα" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Πρώτο Θέμα">--><font color="000000">Πρώτο Θέμα----.<strong>Γυναικα -.-Προσπαθησε -.-Νεροπιστολο .-.</strong><small>Σβησει .--Ολυμπιακη .--</small>.-----..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.protothema.gr/sports/article/1140810/foularei-gia-bizot-o-olubiakos/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Πρώτο Θέμα" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Πρώτο Θέμα">--><font color="000000">Πρώτο Θέμα.....-....--<strong>Φουλαρει ...Μπιζοτ .-.Ολυμπιακος -..</strong><small></small>-..-..--.-..-..-.-.-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.in.gr/2021/07/07/sports/football/agglia-gia-coming-home-dania-gia-oneiro/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το in.gr" data-placement="bottom" src="./logos/inlogo-logo-tiny.png" alt="in.gr">--><font color="000000">in.gr-..-.----<strong>Αγγλια .-.Its ...Coming ---</strong><small>Home .--Δανια -.-</small>..-.-.----...-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>..-</strong>Πριν <strong>6 ώρες</strong><strong>-.-</strong>
+      </div>
+
+
+
+      <div class="page-header">
+      <a data-toggle="tooltip" title="Η κατανομή είναι κατά προσέγγιση λόγω της προσεγγιστικής μεθόδου προσδιορισμού της ώρας δημοσίευσης ενός μέρους των άρθρων." data-placement="bottom" name="graph"><img class="img-responsive" src="./LatestArticles.svg" alt="Κατανομή ειδήσεων ανά πηγή και ώρα"></a>
+      </div>
+
+		<br>
+
+      <div class="page-header">
+      <a data-toggle="tooltip" title="Η κατανομή είναι κατά προσέγγιση λόγω της προσεγγιστικής μεθόδου προσδιορισμού της ώρας δημοσίευσης ενός μέρους των άρθρων." data-placement="bottom" name="graph"><img class="img-responsive" src="./WordVolume.svg" alt="Κατανομή πλήθους λέξεων ανά πηγή και ώρα"></a>
+      </div>
+
+		<br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση τον αριθμό άρθρων το τελευταίο 24ωρο</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Αριθμός άρθρων </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 273 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 272 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 254 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 254 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 239 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 213 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 191 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 189 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 187 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 187 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 181 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 176 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 148 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 141 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 136 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 131 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 123 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 121 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 107 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 105 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 98 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 91 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 90 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 83 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 80 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 74 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 61 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 59 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 57 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 53 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 33 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 10 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση το μέσο όρο λέξεων ανά άρθρο το τελευταίο 24ωρο</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Μέσος όρος λέξεων ανά άρθρο </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 1162.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 1020.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 622.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 571.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 472.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 459.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 419.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 404.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 392.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 392.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 386.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 383.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 376.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 372.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 367.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 351.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 340.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 338.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 338.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 332.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 325.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 316.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 309.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 307.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 299.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 285.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 279.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 276.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 269.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 261.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 259.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 252.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 245.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 201.0 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση το σύνολο των λέξεων στα άρθρα των τελευταίων 24ων ωρών</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Σύνολο λέξεων </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 116420 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 95544 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 88900 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 75556 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 71096 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 70320 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 65865 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 64647 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 63780 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 62012 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 53367 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 51222 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 50932 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 50211 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 48201 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 41638 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 41371 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 39471 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 36767 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 35789 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 32546 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 30880 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 29655 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 28186 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 27689 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 24656 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 20824 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 19697 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 19606 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 19321 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 15586 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 11628 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 6124 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 338 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση τον δείκτης απλότητας κειμένου το τελευταίο 24ωρο (λεπτομέρειες στην <a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests#Flesch_reading_ease)" target="_blank">Wikipedia</a>)</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Δείκτης απλότητας κειμένου </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 81.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 80.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 78.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 77.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 77.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 75.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 75.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 75.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 74.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 73.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 73.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 73.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 72.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 72.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 72.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 71.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 70.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 70.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 70.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 69.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 69.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 69.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 68.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 66.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 66.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 62.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 62.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 60.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 60.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 58.3 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+      <div class="page-header">
+      <a data-toggle="tooltip" title="Η κατανομή είναι κατά προσέγγιση λόγω της προσεγγιστικής μεθόδου προσδιορισμού της ώρας δημοσίευσης ενός μέρους των άρθρων." data-placement="bottom" name="graph"><img class="img-responsive" src="./Articles24PerCatPerSource.svg" alt="Κατανομή άρθρων ανά πηγή και κατηγορία"></a>
+      </div>
+
+    <br>
+
+      <div class="page-header">
+		  <a name="about"><h3>Σχετικά με το 1984</h3></a>
+      </div>
+      <div class="well">
+			<p>Το 1984 (alpha version) είναι μια πειραματική και ερευνητική υπηρεσία προβολής της ροής των ειδήσεων από ελληνικές ιστοσελίδες ενημέρωσης.</p>
+
+      <div class="alert alert-danger" role="alert">
+        <strong>Αποποίηση ευθύνης</strong>: η ιστοσελίδα 1984 είναι πειραματική και ερευνητική και παρέχεται ως έχει.
+        Ο κάθε επισκέπτης της ιστοσελίδας αποδέχεται ανεπιφύλακτα ότι η ιστοσελίδα 1984 δεν φέρει καμία ευθύνη για τυχόν παραλήψεις ή ανακρίβειες ή κάθε τι άλλο ενδεχόμενα βλαπτικό ή μη εμπεριέχεται σε αυτή, καθώς και σε σελίδες που οδηγούν οι εδώ προσφερόμενοι σύνδεσμοι. Το περιεχόμενο παρέχεται ως έχει και καμία ευθύνη δεν απορρέει από αυτό. Κάνοντας χρήση του ιστοτόπου 1984.gr αυτομάτως αποδέχεστε τους περιορισμούς αυτούς και την αποποίηση οποιαδήποτε ευθύνης από μεριάς μας.
+      </div>
+
+      </div>
+
+      <!--<div class="page-header">
+		<a name="Searching"><h3>Στοιχεία τίτλων και παραπομπές (hyperlinks) σε ειδήσεις από τις παρακάτω ιστοσελίδες:</h3><p>
+      <h4>(τα κάτωθι και ανωτέρω λογότυπα αποτελούν πνευματική τους ιδιοκτησία)</h4></a>
+		<div class="row">
+		  <div class="col-xs-6 col-md-3">
+			<a href="https://thepressproject.gr/" target="_blank" class="thumbnail">
+			  <img src="./logos/logo_ThePressProject_norm.png" alt="The Press Project">
+			</a>
+		  </div>
+
+		  <div class="col-xs-6 col-md-3">
+			<a href="https://www.ert.gr" target="_blank" class="thumbnail">
+			  <img src="./logos/logo_EPT_norm.png" alt="Ελληνική Ραδιοφωνία Τηλεόραση">
+			</a>
+		  </div>
+
+		  <div class="col-xs-6 col-md-3">
+			<a href="https://www.left.gr" target="_blank" class="thumbnail">
+			  <img src="./logos/logo_leftgr_norm.png" alt="Left.gr">
+			</a>
+		  </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="http://www.prin.gr" target="_blank" class="thumbnail">
+        <img src="./logos/logo_prin_norm.jpg" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.tvxs.gr" target="_blank" class="thumbnail">
+        <img src="./logos/logo_tvxs_norm.png" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.efsyn.gr" target="_blank" class="thumbnail">
+        <img src="./logos/efsyn-logo-norm.png" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.kathimerini.gr" target="_blank" class="thumbnail">
+        <img src="./logos/kathimerini-logo-norm.jpg" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.in.gr" target="_blank" class="thumbnail">
+        <img src="./logos/inlogo-logo-norm.png" alt="Πριν">
+      </a>
+      </div>
+
+		</div>
+      </div>-->
+
+		<div class="copyright">
+		  <div class="container">
+  			<div class="col-md-6">
+    			  <p>1984: Ερευνητική Πειραματική Προβολή Ροής Ειδήσεων  <img src="https://licensebuttons.net/l/by-nc/3.0/88x31.png" alt="Attribution-NonCommercial CC BY-NC" ></p>
+  			</div>
+  			<div class="col-md-6">
+  			  <ul class="bottom_ul">
+  				<li><font color="FFFFFF">Για ερωτήσεις και συμμετοχές: <br></font> <a name="contact" href="http://www.prirodniskola.cz/media/files/1984.pdf">e-mail: [σελίδα 6, παράγραφος 2 λέξη 7]@1984.gr</a></li>
+  			  </ul>
+  			</div>
+		  </div>
+		</div>
+
+  </div> <!-- /container -->
+	<footer>
+		<a href="#" class="go-top" style="display: inline;">Go Top</a>
+	</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-3.3.7/assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrap-3.3.7/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="1984: Ερευνητική Πειραματική Προβολή Ροής Ειδήσεων">
+    <meta name="author" content="Michail Moatsos">
+    <!--<meta http-equiv="refresh" content="3600" >-->
+    <link rel="icon" href="./images/1984icon2.ico">
+
+    <title>1984 - across media bubbles</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./bootstrap-3.3.7/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./bootstrap-3.3.7/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./bootstrap-3.3.7/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    $(document).ready(function() {
+      // Show or hide the sticky footer button
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+          $('.go-top').fadeIn(200);
+        } else {
+          $('.go-top').fadeOut(200);
+        }
+      });
+
+      // Animate the scroll to top
+      $('.go-top').click(function(event) {
+        event.preventDefault();
+
+        $('html, body').animate({scrollTop: 0}, 300);
+      })
+    });
+    </script>
+    <style>
+      h6 {text-align:center;}
+    </style>
+    <!--http://www.prepbootstrap.com/bootstrap-template/bootstrap-alerts-->
+    <style>
+        .displaystyle {
+        padding: 5px;
+        margin: 5px;
+        background-color: #FFFFFF;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    .displaystyle-fullborder {
+        padding: 10px;
+        margin: 10px;
+        background-color: #FFFFFF;
+        border: 3px solid #7f7f84;
+        margin-bottom: 5px;
+        box-shadow: 3px 5px 5px 4px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    .displaystyle-rightborder {
+        padding: 10px;
+        margin: 10px;
+        background-color: #FFFFFF;
+        border-right: 9px solid ;
+        margin-bottom: 5px;
+        box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    .displaystyle-leftborder {
+        padding: 15px;
+        margin: 15px;
+        background-color: #FFFFFF;
+        border-left: 9px solid ;
+        margin-bottom: 10px;
+        box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .displaystyle-sm {
+        padding: 10px;
+        font-size: 80%;
+    }
+    .displaystyle-lg {
+        padding: 15px;
+        font-size: large;
+    }
+    .displaystyle-success {
+        border-color: #80D651;
+    }
+    .displaystyle-success>strong {
+        color: #000000;
+    }
+    .displaystyle-info {
+        border-color: #45ABCD;
+    }
+    .displaystyle-info>strong {
+        color: #45ABCD;
+    }
+    .displaystyle-warning {
+        border-color: #FEAF20;
+    }
+    .displaystyle-warning>strong {
+        color: #FEAF20;
+    }
+    .displaystyle-danger {
+        border-color: #d73814;
+    }
+    .displaystyle-danger>strong {
+        color: #d73814;
+    }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-101018939-1', 'auto');
+    ga('send', 'pageview');
+  </script>-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://1984.gr/">1984<-Οικολογία</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!--<li class="active"><a href="#">Αρχική</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Παρακολουθείτε <span class="badge">36 πηγές</span><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+				<li><a href="#graph">Τα συνολικά <span class="badge"><font color="FFFFFF">100</font></span> τελευταία άρθρα ανά πηγή:</a></li>
+				<li role="separator" class="divider"></li>
+                <li class="dropdown-header">The Press Project  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">Left.gr  <span class="badge"><font color="FFFFFF">6</font></span></li>
+                <li class="dropdown-header">ΕΡΤ  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">Πριν  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">TVXS  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">ΕφΣυν  <span class="badge"><font color="FFFFFF">0</font></span></li>
+                <li class="dropdown-header">Καθημερινή  <span class="badge"><font color="FFFFFF">17</font></span></li>
+              </ul>
+            </li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Top Ranks<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/large20.html">Τα 20 μεγαλύτερα</a></li>
+              </ul>
+            </li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/ellada.html">Ελλάδα</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/oikonomia.html">Οικονομία</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/politiki.html">Πολιτική</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/kosmos.html">Κόσμος</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/politismos.html">Πολιτισμός</a></li>
+                <!--<li class="nav-item"><a class="nav-link" href="http://1984.gr/koinwnia.html">Κοινωνία</a></li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Περισσότερα<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/ereunes.html">Έρευνες</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/gnwmes.html">Γνώμες</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/epistimi.html">Επιστήμη</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/oikologia.html">Οικολογία</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/evzoia.html">Ευζωία</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://1984.gr/athlitismos.html">Αθλητισμός</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" role="main">
+
+    <img class="img-responsive" src="./WordCloud24.svg" alt="Σύννεφο λέξεων των τίτλων του τελευταίου 24ώρου">
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/health/561422953/o-ilios-peftei-i-gymnastiki-erchetai/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή---.-...-.<strong>Ηλιος -.-Πεφτει -.-Γυμναστικη .-.</strong><small>Ερχεται --.</small>.-.-........--..-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/perivallon/article/i-voria-ameriki-viose-ton-pio-zesto-iounio-pou-exi-mexri-stigmis-katagrafi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla-...-<strong>Βορεια --.Αμερικη --.Βιωσε ---</strong><small>Ζεστο -..Ιουνιο .--</small>-..-.---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.cnn.gr/perivallon/story/273077/to-konektikat-foylarei-me-omospondiaka-kondylia-kata-tis-klimatikis-allagis"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το cnn" data-placement="bottom" src="./logos/cnn-logo-tiny.png" alt="CNN">--><font color="000000">CNN--..-<strong>Κονεκτικατ .--Φουλαρει ..-Ομοσπονδιακα --.</strong><small>Κονδυλια ...Κλιματικης -..</small>....--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/architecture/561424111/fantastikes-xylines-pergkoles-poy-tha-sas-entyposiasoyn/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή---..-<strong>Φανταστικες -.-Ξυλινες ...Περγκολες --.</strong><small>Εντυπωσιασουν ...</small>--.......---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/agglia-13-elefantes-apo-zoologiko-kipo-tha-apeleytherothoun-stin-agria-fysi-tis-kenyas"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι..-.-<strong>Αγγλια ---Ελεφαντες --.Ζωολογικο ..-</strong><small>Κηπο .--Απελευθερωθουν ...</small>--.--.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/elliniko-etsi-tha-einai-o-protos-prasinos-ouranoksystis-stin-ellada-sxedia-vid"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι.--.-<strong>Ελληνικο --.Πρωτος .-.Πρασινος -.-</strong><small>Ουρανοξυστης --.Ελλαδα ..-</small>.--..-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.star.gr/lifestyle/fitness/549317/aytes-oi-askhseis-tha-se-pshlwsoyn"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Star" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Star">--><font color="000000">Star--..-.-..<strong>Πεντε .-.Ασκησεις -..Βοηθησουν ..-</strong><small>Ψηλωσεις .--</small>...-----...-..---.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/now/economy/elliniko-paroysiastikan-se-livestream-ta-shedia-toy-marina-tower-toy-protoy-prasinoy"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo-..--<strong>Ελληνικο .--Παρουσιαστηκαν ...Livestream -.-</strong><small>Σχεδια .--Marina ...</small>-..-..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/synantisi-mitsotaki-me-stelexi-tis-ellinikis-etaireias-perivallontos-kai-politismou"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι.---.<strong>Συναντηση -.-Μητσοτακη -.-Στελεχη -.-</strong><small>Ελληνικης --.Εταιρειας --.</small>..-.-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/ekpaidefsi/foteini-gaitanli-symboyles-gia-osoys-kanoyn-ta-prota-bimata-sti-nea-toys"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo-....<strong>Φωτεινη ---Γαιτανλη --.Συμβουλες -..</strong><small>Πρωτα ...Βηματα .--</small>.-..-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.protothema.gr/environment/article/1140245/o-protos-prasinos-ouranoxustis-stin-ellada/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Πρώτο Θέμα" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Πρώτο Θέμα">--><font color="000000">Πρώτο Θέμα--.-.--.<strong>O -.-Πρωτος -.-Πρασινος --.</strong><small>Ουρανοξυστης ---Ελλαδα ..-</small>--..--....--.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/now/perivallon/ageli-elefanton-25-tonon-tha-metaferthei-apo-zoologiko-kipo-tis-bretanias-stin-agria"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo--.--<strong>Ταξιδι -..Ελευθεριας --.Ελεφαντες .--</strong><small>Τονων ..-Αγρια ---</small>-....-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/health-fitness/ola-osa-prepei-na-gnorizete-gia-ti-metallaxi-delta"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo.-...--..---<strong>Γνωριζετε ---Μεταλλαξη -..Δελτα .-.</strong><small></small>.--.-.-...-.--..--..-.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/living/pos-einai-na-zeis-sto-idio-domatio-me-exi-fidia"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo.-..---.-..<strong>Ζεις --.Ιδιο ..-Δωματιο ...</strong><small>Εξι ..-Φιδια --.</small>-......--...-.-.--.--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.protothema.gr/environment/article/1140807/ithaki-katharisan-ton-vutho-se-paralia-tou-nisiou-apomakrunthikan-76-tonoi-aporrimmaton-fotografies/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Πρώτο Θέμα" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Πρώτο Θέμα">--><font color="000000">Πρώτο Θέμα-....<strong>Καθαρισμος -..Βυθου .--Παραλια ..-</strong><small>Ιθακης .--Απομακρυνθηκαν ---</small>--.-.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/aytokinito/ginontai-ontos-pio-eykola-foyrnos-ta-mayra-aytokinita-apo-ta-leyka"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo..-..<strong>Γινονται -.-Οντως .-.Ευκολα --.</strong><small>Φουρνος .--Μαυρα ...</small>-..-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/travel/naxos-exairetika-krasia-fimismena-tyria-kai-alla-monadika-proionta"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo.....<strong>Ναξος ---Εξαιρετικα --.Κρασια -.-</strong><small>Φημισμενα .-.Τυρια ---</small>-.-.-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/shopping/lifo-shopping-axesoyar-gia-kalokairi-kai-ena-polyhromo-backpack"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo--..-<strong>Lifo -..Shopping ..-Αξεσουαρ -.-</strong><small>Καλοκαιρι --.Πολυχρωμο --.</small>.....--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/living/oi-astrologikes-problepseis-tis-ebdomadas-8-14720121"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo-.---..--<strong>Αστρολογικες ..-Προβλεψεις ..-Εβδομαδας ...</strong><small></small>.--.--..---...--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/kairos/1000133_kairos-gia-paralia-simera-stoys-37degc-o-ydrargyros-stin-attiki"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.-....---<strong>Καιρος .--Παραλια .--C .-.</strong><small>Υδραργυρος ...Αττικη ...</small>.-..---..-.-..---.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>-.-</strong>Πριν <strong>9 ώρες</strong><strong>-.-</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/auto/561424372/i-citroen-odigei-to-mellon-sti-chalki/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή-.-.-...-..<strong>Citroen -.-Οδηγει .-.Μελλον ---</strong><small>Χαλκη -.-</small>.--.....--....-.-.-.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/auto/561424363/rekor-tis-volvo-stis-poliseis-to-1o-examino-toy-2021/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή--.....--.<strong>Ρεκορ ...Volvo --.Πωλησεις ...</strong><small>Ο ---Εξαμηνο -..</small>..---..---.--...-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746474/stin-5i-sunantisi-tou-emgf-summeteixe-i-upourgos-energeias-kuprou-n-pileidou"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική--.-.<strong>Η ..-Συναντηση ---Emgf -..</strong><small>Συμμετειχε --.Υπουργος -.-</small>..-.-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746466/eunice-se-perissotera-nisia-to-montelo-tis-tilou"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική-.-..-..<strong>Eunice ...Περισσοτερα -.-Νησια .-.</strong><small>Μοντελο ...Τηλου ..-</small>....----..-.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/kairos/1000108_kairos-sta-ypsi-xana-thermometro-se-poies-periohes-tha-doyme-ypsiles"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews----.<strong>Καιρος .--Υψη ..-Θερμομετρο -..</strong><small>Περιοχες .-.Δουμε ..-</small>-...----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/perivallon/article/i-metrisis-tou-elke8e-gia-ti-marina-vouliagmenis"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla-.--...<strong>Μετρησεις -..Ελ ---Κε --.</strong><small>Θ .--Ε --.</small>--.......-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/environment/arthro/7582110/symmetochi-tis-evropaikis-enosis-kai-tis-pagkosmias-trapezas-sto-foroum-fysikou-aeriou-anatolikis-mesogeiou"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast...--<strong>Συμμετοχη ..-Ευρωπαικης ..-Ενωσης .--</strong><small>Παγκοσμιας ..-Τραπεζας ...</small>.--.-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/gefsi/oinopoieio-roybali-krasia-poy-emperiehoyn-tin-tolmi-kai-ton-kopo-ton-dimioyrgon"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo---..<strong>Οινοποιειο -..Ρουβαλη --.Κρασια ..-</strong><small>Εμπεριεχουν ---Τολμη --.</small>.....-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/gefsi/greece-and-grapes-se-xenagei-ston-geystiko-ployto-tis-elladas-me-ena-klik"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo....-<strong>Greece .--And --.Grapes -..</strong><small>Ξεναγει .--Γευστικο --.</small>.-..--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/gefsi/ktima-tselepoy-mia-oiniki-anazitisi-stis-istorikes-periohes-mantineia-kai-nemea"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo...--<strong>Κτημα ...Τσελεπου -..Οινικη ...</strong><small>Αναζητηση ...Ιστορικες -..</small>--......</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746297/k-skrekas-h-epituxia-tou-emgf-kleidi-gia-ti-statherotita-tis-anat-mesogeiou"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική--...<strong>Κ .-.Σκρεκας .--H ...</strong><small>Επιτυχια -..Emgf -.-</small>..-.....</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/travel/diakopes-sti-messinia-5-protaseis-gia-diamoni"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo---.-.-.-<strong>Διακοπες ...Μεσσηνια -..Προτασεις ---</strong><small>Διαμονη .-.</small>-....-.-.-.--.---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/gefsi/5-beach-cocktail-bars-se-eidylliaka-simeia-tis-peloponnisoy"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo.--.<strong>Beach ---Cocktail .--Bars --.</strong><small>Ειδυλλιακα --.Σημεια .-.</small>...--.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/1000043_seismos-49-rihter-sto-notio-iran-foto"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.--..-...-<strong>Σεισμος -..Ριχτερ .--Νοτιο --.</strong><small>Ιραν .-.Φωτο --.</small>...----.-.-.-.-..-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/1000035_seismiki-donisi-36-rihter-sti-nisyro-foto"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews---.-.-..<strong>Σεισμικη .-.Δονηση ..-Ριχτερ ...</strong><small>Νισυρο ..-Φωτο -..</small>.---.--..-..-...--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/perivallon/article/i-xelones-kindinevoun-sto-lagana-zakin8ou"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla..-..----<strong>Χελωνες ..-Κινδυνευουν -..Λαγανα .-.</strong><small>Ζακυνθου ...</small>--..-.-.-.----.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/anakalyfthikan-dontia-proistorikou-karxaria-80-ekat-eton-se-arxaiologiko-xoro-ierousalim"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι.----<strong>Ανακαλυφθηκαν -..Δοντια ...Προιστορικου --.</strong><small>Καρχαρια .-.Αρχαιολογικο ...</small>..--.-..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.star.gr/lifestyle/fitness/549268/ayta-einai-ta-kalokairina-froyta-me-tis-ligoteres-thermides"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Star" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Star">--><font color="000000">Star-.-.-.-<strong>Tα -..Καλοκαιρινα .--Φρουτα .-.</strong><small>Λιγοτερες ...Θερμιδες --.</small>-.---.-.-...--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="http://left.gr/news/s-famellos-i-kyvernisi-paradehetai-tin-apotyhia-tis-ston-eidiko-logariasmo-gia-tis-ape"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Left.gr" data-placement="bottom" src="./logos/logo_leftgr_tiny.png" alt="Left.gr">--><font color="000000">Left.gr..-..<strong>Σ ..-Φαμελλος ...Κυβερνηση --.</strong><small>Παραδεχεται -.-Αποτυχια ...</small>-....---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746201/thessaloniki-proxora-i-anaplasi-tis-aristotelous-aksiologisi-ton-upopsifion-tou-diagonismou"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική..---<strong>Θεσσαλονικη --.Προχωρα -.-Αναπλαση --.</strong><small>Αριστοτελους -.-Αξιολογηση ...</small>..------</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>...</strong>Πριν <strong>1 ημέρες</strong><strong>...</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/health/561422464/papadopoulion-enas-epigeios-paradeisos-gia-ilikiomenoys-65-stin-kalamata/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή--.--<strong>Papadopoulion --.Επιγειος ---Παραδεισος ---</strong><small>Ηλικιωμενους ..-Καλαματα -..</small>..------</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/561423664/plopping-poia-einai-i-nea-techniki-gia-kymatista-mallia-choris-thermotita/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή---..<strong>Plopping ...Νεα .--Τεχνικη .--</strong><small>Κυματιστα --.Μαλλια ---</small>.--..----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/health/561422914/echete-koronoaypnia-yparchoyn-lyseis/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή.-.--...-..<strong>Κορωνοαυπνια ..-Υπαρχουν -..Λυσεις -..</strong><small></small>.......---..-.-..-----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999995_seismiki-donisi-39-rihter-stin-tilo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.------...-<strong>Σεισμικη .-.Δονηση .--Ριχτερ ...</strong><small>Τηλο .--</small>-.---.--.......---..-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.cnn.gr/perivallon/story/272954/oi-pagoi-tis-gis-lionoyn-pio-grigora-apo-pote-giati-to-2060-theoreitai-orosimo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το cnn" data-placement="bottom" src="./logos/cnn-logo-tiny.png" alt="CNN">--><font color="000000">CNN-..-.---.<strong>Παγοι -.-Γης ...Λιωνουν ..-</strong><small>Θεωρειται -..Οροσημο ---</small>.--.-...-.-..--.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999978_stagones-apo-hryso-ayta-einai-ta-deka-akrivotera-ygra-ston-kosmo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.---.-.<strong>Σταγονες ..-Χρυσο ..-Δεκα .-.</strong><small>Ακριβοτερα .--Υγρα -..</small>.-.-------.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.star.gr/lifestyle/fitness/549137/kalokairi-2021-ygieina-snak-gia-thn-paralia"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Star" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Star">--><font color="000000">Star...-..--.<strong>Υγιεινα .-.Σνακ -.-Παραλια --.</strong><small>Λιγες .--Θερμιδες --.</small>--.-..-...--..---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/aytokinito/4-proorismoi-gia-kalokairines-apodraseis-4-ores-me-aytokinito-apo-tin-athina"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo-....<strong>Προορισμοι ..-Καλοκαιρινες ..-Αποδρασεις ---</strong><small>Ωρες ---Αυτοκινητο ..-</small>-...--.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/katoikidia/999958_eylygisti-gata-perna-kato-apo-ena-mikro-keno-portas-kai-ginetai-viral"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews..---<strong>Ευλυγιστη ...Γατα -..Περνα .--</strong><small>Μικρο -..Κενο -..</small>..---...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/environment/561423421/klimatiki-allagi-oi-anadasoseis-voithoyn-tin-katapolemisi-kai-tis-xirasias/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή---..<strong>Κλιματικη ---Αλλαγη .--Αναδασωσεις .--</strong><small>Βοηθουν .-.Καταπολεμηση -.-</small>.---.--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/environment/arthro/7579205/to-fytema-extra-dentron-tha-afxisei-tis-kalokairines-vroches-kai-sti-notia-evropi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast-.-..<strong>Φυτεμα -..Εξτρα --.Δεντρων ..-</strong><small>Αυξησει .-.Καλοκαιρινες .--</small>...-...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="http://left.gr/news/fytema-extra-dentron-tha-ayxisei-tis-kalokairines-vrohes"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Left.gr" data-placement="bottom" src="./logos/logo_leftgr_tiny.png" alt="Left.gr">--><font color="000000">Left.gr---.<strong>Φυτεμα ...Εξτρα -..Δεντρων .-.</strong><small>Αυξησει ---Καλοκαιρινες --.</small>...-.-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/katoikidia/999948_meleti-anatrepei-ton-tropo-poy-ypologizame-mehri-tora-tin-ilikia-ton"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews....<strong>Μελετη ...Ανατρεπει -..Τροπο ---</strong><small>Υπολογιζαμε .-.Ηλικια .-.</small>---....-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/people/561423322/prosopa-tis-tritis-193/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή.--.---....----.<strong>Προσωπα ..-Τριτης .-.</strong><small></small>....-..-.-.-.-...----.-.----...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.cnn.gr/perivallon/story/272924/notia-eyropi-to-fytema-dentron-tha-ayxisei-tis-kalokairines-vroxes"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το cnn" data-placement="bottom" src="./logos/cnn-logo-tiny.png" alt="CNN">--><font color="000000">CNN----.<strong>Νοτια ...Ευρωπη -.-Φυτεμα ---</strong><small>Δεντρων --.Αυξησει ...</small>.-.---.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/architecture/561422692/dimioyrgiste-to-monterno-spiti-poy-oneireyeste/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή-.---.-<strong>Δημιουργηστε .-.Μοντερνο --.Σπιτι -..</strong><small>Ονειρευεστε -..</small>-..-..-...-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/perivallon/article/to-fitema-ekstra-dentron-8a-afksisi-tis-kalokerines-vroxes-ke-sti-notia-evropi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla.-.--<strong>Φυτεμα ..-Εξτρα .--Δεντρων -.-</strong><small>Αυξησει .-.Καλοκαιρινες .--</small>.-.---.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/peripou-6000-stremmata-kaikan-sti-notioanatoliki-kefalonia"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι.----..<strong>Στρεμματα -..Καηκαν ---Νοτιοανατολικη .-.</strong><small>Κεφαλονια -.-</small>--.-.--..-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/tropos-zois/gefsi/mayromatika-tsiftika-kai-threptika"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo-...---....<strong>Μαυροματικα .--Τσιφτικα ..-Θρεπτικα ..-</strong><small></small>-..-.-.--.---...---..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999928_kefalonia-peripoy-6000-stremmata-kaikan-sti-notioanatoliki-pleyra-apo-ti"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews--.--<strong>Κεφαλονια -..Στρεμματα ...Καηκαν ---</strong><small>Νοτιοανατολικη -..Μεγαλη .-.</small>...---..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>..-</strong>Πριν <strong>1 ημέρες</strong><strong>.-.</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999896_ki-omos-aytes-oi-hores-den-ehoyn-oyte-ena-potami"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.....--..-.--..<strong>Χωρες ..-Δεν ---Ποταμι -..</strong><small></small>----...--...----..--...-.-.--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/kairos/999889_kairos-aithrios-me-fysiologiki-gia-tin-epohi-thermokrasia-ayrio-analytika-i"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews-...-<strong>Καιρος -..Αιθριος ..-Φυσιολογικη -.-</strong><small>Εποχη ...Θερμοκρασια --.</small>..-----.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999882_ishyri-seismiki-donisi-41-rihter-stin-kriti-foto"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews--.....<strong>Ισχυρη -.-Σεισμικη -.-Δονηση .-.</strong><small>Ριχτερ .-.Κρητη ...</small>.---...--.-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.lifo.gr/now/perivallon/gallia-i-geroysia-mplokare-dimopsifisma-gia-tin-klimatiki-allagi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Lifo" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Lifo">--><font color="000000">Lifo----.<strong>Γαλλια .-.Γερουσια ...Μπλοκαρε ...</strong><small>Δημοψηφισμα ---Κλιματικη ..-</small>-..-..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/city/561421597/oi-atthides-kores-kai-o-tsaroychis/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή.......---.--<strong>Ατθιδες -.-Κορες -..Τσαρουχης -..</strong><small></small>.-.-----..-.....--....--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/ypo-meriko-elegxo-i-pyrkagia-sta-methana-ypo-elegxo-se-andro-kai-oropo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι----<strong>Μερικο .--Ελεγχο ...Πυρκαγια .-.</strong><small>Μεθανα --.Ελεγχο ...</small>-..-.---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746026/iaponia-katolisthisi-laspis-tesseris-nekroi-kai-toulaxiston-64-agnooumenoi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική...-.<strong>Ιαπωνιακατολισθηση -.-Λασπης -..Τεσσερις -.-</strong><small>Νεκροι -.-Αγνοουμενοι ---</small>.--....-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.newsbeast.gr/environment/arthro/7578440/arnitiko-rekor-thermokrasion-ston-arktiko-kyklo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το newsbeast" data-placement="bottom" src="./logos/newsbeast-logo-tiny.png" alt="newsbeast">--><font color="000000">newsbeast-..----<strong>Αρνητικο .-.Ρεκορ ---Θερμοκρασιων .--</strong><small>Αρκτικο ...Κυκλο -..</small>-..-..-.----.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1746002/algeria-200-louomenoi-molunthikan-se-plaz-tis-tenes-ypopsies-gia-rupansi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική..---<strong>Αλγερια --.Λουομενοι .-.Μολυνθηκαν ...</strong><small>Πλαζ -..Τενες -.-</small>..---...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="http://left.gr/news/preveza-ameilikta-erotimata-gia-tin-axiopoiisi-toy-dasoys-valanidorrahis"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Left.gr" data-placement="bottom" src="./logos/logo_leftgr_tiny.png" alt="Left.gr">--><font color="000000">Left.gr---..<strong>Πρεβεζα ---Αμειλικτα ...Ερωτηματα ..-</strong><small>Αξιοποιηση -..Δασους --.</small>..-.-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999864_i-kataigida-elsa-plisiazei-stin-koyva-vinteo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews-....--.<strong>Καταιγιδα ..-Ελσα .-.Πλησιαζει --.</strong><small>Κουβα .-.Βιντεο --.</small>-----......--..-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/environment/561423007/klimatiki-allagi-rekor-zestis-kai-ston-arktiko-kyklo/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή.---.-<strong>Κλιματικη -..Αλλαγη .-.Ρεκορ ...</strong><small>Ζεστης ---Αρκτικο --.</small>-...-.-..--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/katoikidia/999842_aytes-einai-oi-91-pio-epikindynes-ratses-skylon"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews--.....----.<strong>Επικινδυνες ..-Ρατσες -.-Σκυλων ..-</strong><small></small>-...-.-.--...--..--..-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999839_trelathike-o-kairos-katagrafikan-thermokrasies-rekor-ston-arktiko-kyklo"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews-..--<strong>Τρελαθηκε ...Καιρος .--Καταγραφηκαν ..-</strong><small>Θερμοκρασιες .--Ρεκορ .--</small>.-.-...-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999833_dust-devil-ti-einai-fainomeno-aprovleptoy-anemostroviloy-poy-eplixe-ti"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.-..-<strong>Dust .--Devil ---Φαινομενο .-.</strong><small>Απροβλεπτου ..-Ανεμοστροβιλου --.</small>-..--.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/fysi/999810_dw-eidos-polyteleias-ta-lemonia-etoimazontai-na-exafanistoyn-apo-ton-planiti"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews...-.<strong>Dw .--Ειδος --.Πολυτελειας ..-</strong><small>Λεμονια --.Ετοιμαζονται -.-</small>-..-..--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1745900/ekthesi-stin-ee-aneparkis-i-efarmogi-tis-odigias-o-rupainon-plironei"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική---.-<strong>Εκθεση --.Εε ...Ανεπαρκης ..-</strong><small>Εφαρμογη .-.Οδηγιας -.-</small>------..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/kairos/999803_o-kairos-ayrio-stoys-36degc-o-ydrargyros-stin-attiki"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews..-.-..-....<strong>Καιρος -..C ...Υδραργυρος ..-</strong><small>Αττικη ---</small>-.-.---..--.--.--..--..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/pyrkagia-sto-markopoulo-oropou-esvisan-oi-foties-se-parnitha-kai-penteli"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι-.---<strong>Πυρκαγια ...Μαρκοπουλο -..Ωρωπου ..-</strong><small>Εσβησαν ..-Φωτιες ..-</small>..---.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/skrekas-267-oi-aitiseis-gia-prasino-tameio-dimous-kato-20000-katoikon"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι-..--<strong>Σκρεκας ..-Ξεκινουν -..Αιτησεις .--</strong><small>Πρασινο ..-Ταμειο .-.</small>--..-...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>-..</strong>Πριν <strong>2 ημέρες</strong><strong>.--</strong>
+      </div>
+
+
+
+		
+      <div class="row">
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.zougla.gr/perivallon/article/stis-26-iouliou-anigi-i-prosklisi-tou-prasinou-tamiou-ke-gia-tous-dimous-kato-ton-20000-katikon"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τη Zougla" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Zougla">--><font color="000000">Zougla.-...<strong>Ιουλιου .-.Ανοιγει .--Προσκληση -.-</strong><small>Πρασινου -..Ταμειου ..-</small>...-----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/agria-zoi/999796_makedonia-xehastikan-idi-ta-agriogoyroyna-ageles-mink-rimazoyn-stavloys"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.----<strong>Μακεδονια ..-Ξεχαστηκαν ...Αγριογουρουνα ---</strong><small>Αγελες ..-Μινκ ..-</small>..----..</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/561422812/mpanteras-sti-deth-ta-simerina-gyrismata-tis-tainias-eikones/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή-.-.<strong>Μπαντερας ---Δεθ ..-Σημερινα .--</strong><small>Γυρισματα .--Ταινιας ---</small>.-..----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.star.gr/lifestyle/fitness/549118/aytes-einai-oi-trofes-gia-epipedh-koilia"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Star" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Star">--><font color="000000">Star..-..-<strong>Τροφες ..-Βοηθησουν .-.Αποκτησεις -.-</strong><small>Επιπεδη -.-Κοιλια ...</small>.-.--....---</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.protothema.gr/environment/article/1140276/makedonia-poia-agriogourouna-ageles-mink-rimazoun-stavlous-kai-kotetsia/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Πρώτο Θέμα" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Πρώτο Θέμα">--><font color="000000">Πρώτο Θέμα.....<strong>Μακεδονια .--Αγριογουρουνα ..-Αγελες .--</strong><small>Μινκ -.-Ρημαζουν --.</small>..-.-.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/pyrkagia-ston-dionyso-attikis"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι-------.-.-.<strong>Πυρκαγια ..-Διονυσο ..-Αττικης .-.</strong><small></small>-.-.--....-.----..-...-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/pyrkagia-se-xortolivadiki-ektasi-stin-andro"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι...-..---<strong>Πυρκαγια --.Χορτολιβαδικη -.-Εκταση ..-</strong><small>Ανδρο ..-</small>--.--...-.--.-..-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/auto/561420793/olokliromeno-apo-kathe-apopsi/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή-....-.---..--<strong>Ολοκληρωμενο .--Αποψη .-.</strong><small></small>----.-.-.---.-..---...----.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/auto/561420799/i-megalyteri-aytokinisi-ton-teleytaion-15-eton/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή-.-.-...-.<strong>Μεγαλυτερη -.-Αυτοκινηση .-.Τελευταιων ...</strong><small></small>.--.-.---.---..--.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/oloi-mazi-mporoume-savvato-10-iouliou-katharizoume-paralies-sto-notio-eyvoiko"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι-..-.<strong>Μπορουμε ...Ιουλιου .--Καθαριζουμε .--</strong><small>Παραλιες -.-Νοτιο .-.</small>--.----.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+        </div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="http://left.gr/news/eyrovarometro-oi-8-stoys-10-ellines-theoroyn-poly-sovaro-provlima-tin-klimatiki-allagi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Left.gr" data-placement="bottom" src="./logos/logo_leftgr_tiny.png" alt="Left.gr">--><font color="000000">Left.gr-.-.-<strong>Ευρωβαρομετρο -.-Ελληνες -.-Θεωρουν -.-</strong><small>Σοβαρο -..Προβλημα ---</small>-----...</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.naftemporiki.gr/story/1745805/eurobarometro-oi-8-stous-10-ellines-theoroun-polu-sobaro-problima-tin-klimatiki-allagi"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Ναυτεμπορική" data-placement="bottom" src="./logos/naftemporiki-logo-tiny.png" alt="Ναυτεμπορική">--><font color="000000">Ναυτεμπορική--..-<strong>Ευρωβαρομετρο .-.Ελληνες ...Θεωρουν .--</strong><small>Σοβαρο ...Προβλημα --.</small>.---.--.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/kairos/999750_thessaloniki-systima-proeidopoiisis-ton-politon-gia-kaysona-apo-ton"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews-.--.<strong>Θεσσαλονικη --.Συστημα ..-Προειδοποιησης ..-</strong><small>Πολιτων -..Καυσωνα --.</small>..---.-.</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.pronews.gr/perivallon/agria-zoi/999739_aystria-65hronos-ezise-ton-efialti-tis-zois-toy-pige-toyaleta-kai-toy"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το ProNews" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="ProNews">--><font color="000000">ProNews.-.-.<strong>Αυστρια -.-Χρονος -.-Εζησε ...</strong><small>Εφιαλτη .--Ζωης .--</small>..-..-.-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.cnn.gr/perivallon/story/272823/r-trigkoy-h-ellada-exei-pronomiaki-thesi-kai-simantiki-eythyni-gia-tin-epiviosi-ton-agrion-poylion"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το cnn" data-placement="bottom" src="./logos/cnn-logo-tiny.png" alt="CNN">--><font color="000000">CNN-----<strong>Ρ .--Τριγκου --.Ελλαδα -.-</strong><small>Προνομιακη .-.Θεση ...</small>..-....-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+		<div class="col-sm-3 nopadding">
+			                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/life/561422629/glyka-kai-apoleia-varoys-oi-dokimasmenes-symvoyles-diatrofis/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή.-...<strong>Γλυκα ---Απωλεια ..-Βαρους -..</strong><small>Δοκιμασμενες .--Συμβουλες .-.</small>..-...--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.kathimerini.gr/world/561422506/koronoios-oi-emvoliasmenoi-metadidoyn-ligotero-ton-io-akomi-ki-an-molynthoyn/"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από την Καθημερινή" data-placement="bottom" src="./logos/kathimerini-logo-tiny.png" alt="Καθημερινή">--><font color="000000">Καθημερινή.----<strong>Κορωνοιος --.Εμβολιασμενοι -.-Μεταδιδουν ...</strong><small>Λιγοτερο -..Ιο ...</small>.-.....-</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="http://left.gr/news/s-famellos-i-apanthrakopoiisi-prepei-na-ginei-me-dikaioys-oroys-gia-oloys"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Left.gr" data-placement="bottom" src="./logos/logo_leftgr_tiny.png" alt="Left.gr">--><font color="000000">Left.gr...--<strong>Σ .--Φαμελλος .-.Απανθρακοποιηση ---</strong><small>Γινει .-.Δικαιους ..-</small>-........</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="https://www.skai.gr/news/environment/enimerotiki-kampania-ggpp-den-paizoume-me-ti-fotia-giati-i-fotia-den-paizei-mazi-mas"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από τον Σκάι" data-placement="bottom" src="./logos/avgi-logo-tiny.png" alt="Σκάι">--><font color="000000">Σκάι.-.-.<strong>Eνημερωτικη ---Καμπανια .--Γγππ .--</strong><small>Δεν .-.Παιζουμε -.-</small>....-.--</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert">
+                  <a href="http://left.gr/news/o-g-sarakiotis-stin-ert-gia-themata-kyklikis-oikonomias-kai-viosimis-anaptyxis"  target="_blank" STYLE="text-decoration: none">
+                    <!--<img data-toggle="tooltip" title="Δημοσιεύτηκε από το Left.gr" data-placement="bottom" src="./logos/logo_leftgr_tiny.png" alt="Left.gr">--><font color="000000">Left.gr....-<strong>Γ --.Σαρακιωτης -..Ερτ ...</strong><small>Θεματα .--Κυκλικης -.-</small>...-----</font></a>
+                </div>
+                
+                 <div class="displaystyle" role="alert"> <p> ------------------------ </p></div>
+		</div><!-- /.col-sm-4 -->
+      </div>
+      
+		      
+      <div class="row col-sm-12 displaystyle displaystyle-success">
+      <strong>..-</strong>Πριν <strong>2 ημέρες</strong><strong>--.</strong>
+      </div>
+
+
+
+      <div class="page-header">
+      <a data-toggle="tooltip" title="Η κατανομή είναι κατά προσέγγιση λόγω της προσεγγιστικής μεθόδου προσδιορισμού της ώρας δημοσίευσης ενός μέρους των άρθρων." data-placement="bottom" name="graph"><img class="img-responsive" src="./LatestArticles.svg" alt="Κατανομή ειδήσεων ανά πηγή και ώρα"></a>
+      </div>
+
+		<br>
+
+      <div class="page-header">
+      <a data-toggle="tooltip" title="Η κατανομή είναι κατά προσέγγιση λόγω της προσεγγιστικής μεθόδου προσδιορισμού της ώρας δημοσίευσης ενός μέρους των άρθρων." data-placement="bottom" name="graph"><img class="img-responsive" src="./WordVolume.svg" alt="Κατανομή πλήθους λέξεων ανά πηγή και ώρα"></a>
+      </div>
+
+		<br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση τον αριθμό άρθρων το τελευταίο 24ωρο</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Αριθμός άρθρων </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 273 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 272 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 254 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 254 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 239 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 213 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 191 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 189 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 187 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 187 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 181 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 176 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 148 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 141 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 136 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 131 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 123 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 121 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 107 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 105 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 98 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 91 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 90 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 83 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 80 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 74 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 61 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 59 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 57 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 53 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 33 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 10 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση το μέσο όρο λέξεων ανά άρθρο το τελευταίο 24ωρο</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Μέσος όρος λέξεων ανά άρθρο </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 1162.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 1020.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 622.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 571.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 472.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 459.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 419.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 404.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 392.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 392.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 386.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 383.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 376.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 372.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 367.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 351.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 340.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 338.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 338.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 332.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 325.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 316.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 309.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 307.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 299.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 285.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 279.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 276.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 269.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 261.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 259.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 252.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 245.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 201.0 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση το σύνολο των λέξεων στα άρθρα των τελευταίων 24ων ωρών</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Σύνολο λέξεων </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 116420 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 95544 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 88900 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 75556 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 71096 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 70320 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 65865 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 64647 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 63780 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 62012 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 53367 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 51222 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 50932 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 50211 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 48201 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 41638 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 41371 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 39471 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 36767 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 35789 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 32546 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 30880 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 29655 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 28186 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 27689 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 24656 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 20824 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 19697 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 19606 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 19321 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 15586 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 11628 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 6124 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 338 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+    <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>Κατάταξη Ιστοτόπων με βάση τον δείκτης απλότητας κειμένου το τελευταίο 24ωρο (λεπτομέρειες στην <a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests#Flesch_reading_ease)" target="_blank">Wikipedia</a>)</caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Θέση </th>
+   <th style="text-align:left;"> Ιστότοπος </th>
+   <th style="text-align:right;"> Δείκτης απλότητας κειμένου </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> Viewtag </td>
+   <td style="text-align:right;"> 81.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> Star </td>
+   <td style="text-align:right;"> 80.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> Πρώτο Θέμα </td>
+   <td style="text-align:right;"> 78.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> Makeleio </td>
+   <td style="text-align:right;"> 77.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> KoutiPandoras </td>
+   <td style="text-align:right;"> 77.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> Newsit </td>
+   <td style="text-align:right;"> 75.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> in.gr </td>
+   <td style="text-align:right;"> 75.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> Lifo </td>
+   <td style="text-align:right;"> 75.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> Ενικός </td>
+   <td style="text-align:right;"> 74.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> Zougla </td>
+   <td style="text-align:right;"> 73.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> Το Ποντίκι </td>
+   <td style="text-align:right;"> 73.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> Σκάι </td>
+   <td style="text-align:right;"> 73.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:left;"> newsbeast </td>
+   <td style="text-align:right;"> 72.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:left;"> DocumentoNews </td>
+   <td style="text-align:right;"> 72.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:left;"> NewsBomb </td>
+   <td style="text-align:right;"> 72.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 16 </td>
+   <td style="text-align:left;"> Ναυτεμπορική </td>
+   <td style="text-align:right;"> 71.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:left;"> Καθημερινή </td>
+   <td style="text-align:right;"> 70.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> Έθνος </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:left;"> Δικαιολογητικά </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:left;"> TheToc </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> TVXS </td>
+   <td style="text-align:right;"> 70.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 22 </td>
+   <td style="text-align:left;"> News247 </td>
+   <td style="text-align:right;"> 70.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 23 </td>
+   <td style="text-align:left;"> Αυγή </td>
+   <td style="text-align:right;"> 70.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 24 </td>
+   <td style="text-align:left;"> Πενταπόσταγμα </td>
+   <td style="text-align:right;"> 69.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> Παραπολιτικά </td>
+   <td style="text-align:right;"> 69.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> ProNews </td>
+   <td style="text-align:right;"> 69.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> iefimerida </td>
+   <td style="text-align:right;"> 68.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> ΕφΣυν </td>
+   <td style="text-align:right;"> 66.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 29 </td>
+   <td style="text-align:left;"> Capital </td>
+   <td style="text-align:right;"> 66.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 30 </td>
+   <td style="text-align:left;"> Πριν </td>
+   <td style="text-align:right;"> 62.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 31 </td>
+   <td style="text-align:left;"> CNN </td>
+   <td style="text-align:right;"> 62.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:left;"> Left.gr </td>
+   <td style="text-align:right;"> 60.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 33 </td>
+   <td style="text-align:left;"> The Press Project </td>
+   <td style="text-align:right;"> 60.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 34 </td>
+   <td style="text-align:left;"> AlfaVita </td>
+   <td style="text-align:right;"> 58.3 </td>
+  </tr>
+</tbody>
+</table>
+
+    <br>
+
+      <div class="page-header">
+      <a data-toggle="tooltip" title="Η κατανομή είναι κατά προσέγγιση λόγω της προσεγγιστικής μεθόδου προσδιορισμού της ώρας δημοσίευσης ενός μέρους των άρθρων." data-placement="bottom" name="graph"><img class="img-responsive" src="./Articles24PerCatPerSource.svg" alt="Κατανομή άρθρων ανά πηγή και κατηγορία"></a>
+      </div>
+
+    <br>
+
+      <div class="page-header">
+		  <a name="about"><h3>Σχετικά με το 1984</h3></a>
+      </div>
+      <div class="well">
+			<p>Το 1984 (alpha version) είναι μια πειραματική και ερευνητική υπηρεσία προβολής της ροής των ειδήσεων από ελληνικές ιστοσελίδες ενημέρωσης.</p>
+
+      <div class="alert alert-danger" role="alert">
+        <strong>Αποποίηση ευθύνης</strong>: η ιστοσελίδα 1984 είναι πειραματική και ερευνητική και παρέχεται ως έχει.
+        Ο κάθε επισκέπτης της ιστοσελίδας αποδέχεται ανεπιφύλακτα ότι η ιστοσελίδα 1984 δεν φέρει καμία ευθύνη για τυχόν παραλήψεις ή ανακρίβειες ή κάθε τι άλλο ενδεχόμενα βλαπτικό ή μη εμπεριέχεται σε αυτή, καθώς και σε σελίδες που οδηγούν οι εδώ προσφερόμενοι σύνδεσμοι. Το περιεχόμενο παρέχεται ως έχει και καμία ευθύνη δεν απορρέει από αυτό. Κάνοντας χρήση του ιστοτόπου 1984.gr αυτομάτως αποδέχεστε τους περιορισμούς αυτούς και την αποποίηση οποιαδήποτε ευθύνης από μεριάς μας.
+      </div>
+
+      </div>
+
+      <!--<div class="page-header">
+		<a name="Searching"><h3>Στοιχεία τίτλων και παραπομπές (hyperlinks) σε ειδήσεις από τις παρακάτω ιστοσελίδες:</h3><p>
+      <h4>(τα κάτωθι και ανωτέρω λογότυπα αποτελούν πνευματική τους ιδιοκτησία)</h4></a>
+		<div class="row">
+		  <div class="col-xs-6 col-md-3">
+			<a href="https://thepressproject.gr/" target="_blank" class="thumbnail">
+			  <img src="./logos/logo_ThePressProject_norm.png" alt="The Press Project">
+			</a>
+		  </div>
+
+		  <div class="col-xs-6 col-md-3">
+			<a href="https://www.ert.gr" target="_blank" class="thumbnail">
+			  <img src="./logos/logo_EPT_norm.png" alt="Ελληνική Ραδιοφωνία Τηλεόραση">
+			</a>
+		  </div>
+
+		  <div class="col-xs-6 col-md-3">
+			<a href="https://www.left.gr" target="_blank" class="thumbnail">
+			  <img src="./logos/logo_leftgr_norm.png" alt="Left.gr">
+			</a>
+		  </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="http://www.prin.gr" target="_blank" class="thumbnail">
+        <img src="./logos/logo_prin_norm.jpg" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.tvxs.gr" target="_blank" class="thumbnail">
+        <img src="./logos/logo_tvxs_norm.png" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.efsyn.gr" target="_blank" class="thumbnail">
+        <img src="./logos/efsyn-logo-norm.png" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.kathimerini.gr" target="_blank" class="thumbnail">
+        <img src="./logos/kathimerini-logo-norm.jpg" alt="Πριν">
+      </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <a href="https://www.in.gr" target="_blank" class="thumbnail">
+        <img src="./logos/inlogo-logo-norm.png" alt="Πριν">
+      </a>
+      </div>
+
+		</div>
+      </div>-->
+
+		<div class="copyright">
+		  <div class="container">
+  			<div class="col-md-6">
+    			  <p>1984: Ερευνητική Πειραματική Προβολή Ροής Ειδήσεων  <img src="https://licensebuttons.net/l/by-nc/3.0/88x31.png" alt="Attribution-NonCommercial CC BY-NC" ></p>
+  			</div>
+  			<div class="col-md-6">
+  			  <ul class="bottom_ul">
+  				<li><font color="FFFFFF">Για ερωτήσεις και συμμετοχές: <br></font> <a name="contact" href="http://www.prirodniskola.cz/media/files/1984.pdf">e-mail: [σελίδα 6, παράγραφος 2 λέξη 7]@1984.gr</a></li>
+  			  </ul>
+  			</div>
+		  </div>
+		</div>
+
+  </div> <!-- /container -->
+	<footer>
+		<a href="#" class="go-top" style="display: inline;">Go Top</a>
+	</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-3.3.7/assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrap-3.3.7/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
